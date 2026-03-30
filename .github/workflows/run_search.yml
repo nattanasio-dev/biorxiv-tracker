@@ -28,7 +28,7 @@ jobs:
         run: pip install requests
 
       - name: Run the script
-        run: python search_biorxiv.py
+        run: python -u search_biorxiv.py
 
       - name: Save the new CSV file back to GitHub
         run: |
